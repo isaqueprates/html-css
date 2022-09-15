@@ -1,0 +1,11 @@
+@charset "UTF-8"; /*Regra para acentuação*/
+h1{
+    color: rgb(6, 10, 245);
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+h2{
+    color: brown;
+}

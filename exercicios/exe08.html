@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/paisagen650.jpg" type="image/jpg">
+        <source media="(max-width: 950px )" srcset="imagens/zake-media.png" type="image/png">
+        <img src="imagens/zake-grande.png" alt="imagens/grande">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vou aprender a reproduzir áudio no meu site com html5</p>
+    <audio src="midia/I Feel It All So Deeply - Bail Bonds.mp3" controls autoplay></audio>
+    <!--formatos MP3 OGG WAV-->
+    <audio preload="metadata" controls>
+        <source src="midia/I Feel It All So Deeply - Bail Bonds.mp3" type="audio/mpeg">
+        <source src="midia/I Feel It All So Deeply - Bail Bonds.ogg" type="audio/ogg">
+        <source src="midia/I Feel It All So Deeply - Bail Bonds.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio</p>
+    </audio>
+</body>
+</html>
